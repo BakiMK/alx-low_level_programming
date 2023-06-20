@@ -1,16 +1,16 @@
 #include "main.h"
 /**
 * print_alphabet_x10 - prints x10 alphabet lowercase
-* return: 0 
+* \n on next line
 * return: void
 */
 void print_alphabet_x10(void)
 {
 	char ch;
 	int i;
-	
+
 	i = 0;
-	
+
 	while (i < 10)
 	{
 		ch = 'a';
