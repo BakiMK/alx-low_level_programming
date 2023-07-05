@@ -19,8 +19,11 @@ int _sqrt_recursion(int b)
 /**
  * actual_sqrt_recursion - recurses to find the natural
  * square root of a number
+ * @b: number to calculate the sqaure root of
+ * @i: iterator
+ *
+ * Return: the resulting square root
  */
-
 int actual_sqrt_recursion(int b, int i)
 {
 	if (i * i > b)
